@@ -197,7 +197,7 @@ h1{
   width: 70%;
   /* height: 300px; */
   margin: 5% auto;
-  padding: 40px;
+
 
 }
 .sottocontainer::after{
@@ -209,6 +209,7 @@ h1{
 
 .sottocontainer1{
   width: 25%;
+  height: 700px;
   position: relative;
   float: left;
 
@@ -217,9 +218,10 @@ h1{
 }
 .sottocontainer2{
   width: 25%;
+  height: 700px;
   position: relative;
   float: left;
-  margin: 0 10%;
+  margin: 0 12%;
   padding: 5%;
   background-color: white;
 }

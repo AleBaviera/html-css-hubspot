@@ -5,15 +5,55 @@
 }
 body{
   background-color: black;
+  font-family: sans-serif;
 }
 
 header{
 
 }
 .blue{
-  height: 30px;
   background-color: #425b76;
+  border-top: orange solid 2px;
+  position: relative;
 }
+
+.blue::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+li{
+  list-style: none;
+  margin: 10px 20px;
+  padding: 15px 15px;
+  position: relative;
+  float: left;
+
+}
+/* menu a tendina?? */
+.blue#hormenu li
+{
+width:100px;
+float:left;
+margin: 0;
+padding: 0;
+border-right: 1px solid black;
+color:black;
+}
+
+li  {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.blue ul li a img{
+ width: 20px;
+ height: auto;
+ float: left;
+}
+
+
 .gray{
   height: 50px;
   background-color: lightgray;
@@ -21,4 +61,16 @@ header{
 .white{
   height: 50px;
   background-color: white;
+}
+
+section{
+  height: 300px;
+  border-bottom: 1px solid black;
+  background-color: gray;
+}
+
+
+footer{
+  height: 300px;
+  background-color:#425b76;
 }

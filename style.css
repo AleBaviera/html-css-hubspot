@@ -66,7 +66,7 @@ li  {
 }
 
 .white{
-  padding: 20px 50px;
+  padding: 20px 100px;
   background-color: white;
   position: relative;
 }
@@ -98,7 +98,7 @@ section{
   background-image: url("img/casette.jpeg");
   background-size: contain;
   position: relative;
-  padding: 20px 20px;
+  padding: 20px 100px;
 }
 #title::after{
   content:"";
@@ -109,7 +109,7 @@ section{
   position: relative;
   float: left;
   margin-top: 100px;
-  padding: 20px 50px;
+  padding: 20px 100px;
 
 }
 h1{
@@ -129,6 +129,20 @@ h1{
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
+}
+
+.main{
+  position: relative;
+  background-color: #E8E8E8;
+}
+.rubick{
+  position: relative;
+  text-align: center;
+  padding: 100px 300px;
+}
+.rubick img{
+  width: 200px;
+  height: auto;
 }
 footer{
   height: 300px;

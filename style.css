@@ -6,3 +6,19 @@
 body{
   background-color: black;
 }
+
+header{
+
+}
+.blue{
+  height: 30px;
+  background-color: #425b76;
+}
+.gray{
+  height: 50px;
+  background-color: lightgray;
+}
+.white{
+  height: 50px;
+  background-color: white;
+}

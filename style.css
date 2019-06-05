@@ -7,7 +7,10 @@ body{
   background-color: black;
   font-family: sans-serif;
 }
-
+.center-cont{
+  width: 80%;
+  margin: 0 auto;
+}
 header{
 
 }
@@ -349,35 +352,77 @@ p{
   margin: auto;
   padding: 5px;
 }
-.growth .duecol{
+.growth .duecolonne{
   background-color: white;
   position: relative;
-  margin: 0;
-  padding: 20px;
+  /* margin: 0;
+  padding: 20px; */
 
 }
 
-.growth .duecol::after{
+
+.duecolonne::after{
   content:"";
   display: table;
   clear:both;
 }
 
-.growth .duecol .sx{
+.growth .duecolonne .colsx{
+  width: 400px;
   float: left;
   position: relative;
-  padding: 100px;
+  /* padding: 100px; */
 
 }
-.growth .duecol .dx{
+.growth .duecolonne .coldx{
+  width: 400px;
   position: relative;
   float: left;
 }
-.growth .duecol .dx img{
+.growth .duecolonne .coldx img{
   width: 300px;
   height: auto;
 }
 footer{
   height: 300px;
   background-color:#425b76;
+}
+
+.row::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+.col{
+  width: 20%;
+  position: relative;
+  float: left;
+
+  padding: 20px;
+}
+h5{
+  margin-top: 40px;
+  color: white;
+  font-size: 15px;
+}
+.col a{
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+.row::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+
+.row div{
+  position: relative;
+  float: left;
+  margin: auto;
+  color: white;
+  font-weight: lighter;
+  padding: 10px 10px;
 }

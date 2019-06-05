@@ -242,7 +242,7 @@ button{
 }
 
 h2{
-  font-size: 25px;
+  font-size: 35px;
   color: white;
   text-align: center;
 }
@@ -316,18 +316,24 @@ h2{
   display: table;
   clear:both;
 }
-
-h3,p{
+h3{
+  font-size: 30px;
+  color:#425b76;
+}
+p{
+  font-size: 20px;
   color:#425b76;
 }
 
 .customers .sx{
+  width: 400px;
   position: relative;
   float: left;
   margin: auto;
   padding: 50px;
 }
 .customers .dx{
+  width: 400px;
   position: relative;
   float: left;
   margin: auto;

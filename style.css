@@ -92,7 +92,7 @@ color:black;
 section{
   /* height: 300px; */
   position: relative;
-  border-bottom: 1px solid black;
+
   background-color: white;
 }
 #title{
@@ -163,7 +163,7 @@ h1{
   display: table;
   clear:both;
 } */
-.liber{
+.duecol{
   position: relative;
   width: 70%;
   /* height: 300px; */
@@ -171,12 +171,12 @@ h1{
   padding: 40px;
   background-color: white;
 }
-.liber::after{
+.duecol::after{
   content:"";
   display: table;
   clear:both;
 }
-.libersx{
+.sx{
   width: 400px;
   position: relative;
   float: left;
@@ -187,7 +187,7 @@ button{
   margin: 15px;
   padding: 15px;
 }
-.liberdx{
+.dx{
   width: 400px;
   position: relative;
   float: right;
@@ -303,6 +303,73 @@ h2{
   content:"";
   display: table;
   clear:both;
+}
+
+.customers{
+  position: relative;
+  background-color: white;
+  padding: 100px;
+
+}
+.customers::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+
+h3,p{
+  color:#425b76;
+}
+
+.customers .sx{
+  position: relative;
+  float: left;
+  margin: auto;
+  padding: 50px;
+}
+.customers .dx{
+  position: relative;
+  float: left;
+  margin: auto;
+  padding: 10px;
+}
+.dx::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+.customers .dx img{
+  float: left;
+  margin: auto;
+  padding: 5px;
+}
+.growth .duecol{
+  background-color: white;
+  position: relative;
+  margin: 0;
+  padding: 20px;
+
+}
+
+.growth .duecol::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+
+.growth .duecol .sx{
+  float: left;
+  position: relative;
+  padding: 100px;
+
+}
+.growth .duecol .dx{
+  position: relative;
+  float: left;
+}
+.growth .duecol .dx img{
+  width: 300px;
+  height: auto;
 }
 footer{
   height: 300px;

@@ -378,9 +378,16 @@ h5{
 
 }
 
-.col button{
+ button{
   padding: 10px 10px;
   border-radius: 5px;
+  background-color: #f28e72;
+  color: white;
+}
+
+.col button{
+  background-color: white;
+  color: gray;
 }
 .rowsocial{
   margin-left: 70%;

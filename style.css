@@ -375,13 +375,30 @@ h5{
   text-decoration: none;
   color: white;
   font-weight: lighter;
+
+}
+
+.col button{
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.rowsocial{
+  margin-left: 70%;
+}
+
+.logosoc{
+  display: inline-block;
+}
+.rowsocial .logosoc a img{
+  width: 20px;
+  height: auto;
+  margin: 10px;
+
 }
 .rowlan{
   margin-left: 30%;
 }
 .language{
-  /* position: relative;
-  float: left; */
   display: inline-block;
   padding: 10px 10px;
   margin: auto ;
@@ -409,7 +426,6 @@ h5{
   position: relative;
   float: right;
   margin: auto;
-  /* padding: 20px; */
   display: inline-block;
 }
 

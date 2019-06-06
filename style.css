@@ -25,14 +25,13 @@ body{
 }
 li{
   list-style: none;
-  margin: 10px 20px;
+  margin: 10px 10px;
   padding: 15px 15px;
   position: relative;
   float: left;
   font-size: 10px;
   color: white;
   text-decoration: none;
-
 }
 
 .blue ul li a img{
@@ -41,12 +40,23 @@ li{
  float: left;
 }
 
-
+.blue ul li i{
+  margin: 0 2px;
+}
 .gray{
   background-color: lightgray;
   position: relative;
 }
 
+.gray ul li{
+  font-size: 15px;
+  color: #425b76;
+}
+.border::before{
+  content: "|";
+  display: inline-block;
+  clear: both;
+}
 .gray::after{
   content:"";
   display: table;
@@ -140,11 +150,7 @@ h1{
 .main .rubick h2{
  color: #425b76;
 }
-/* .container::after{
-  content:"";
-  display: table;
-  clear:both;
-} */
+
 .duecol{
   position: relative;
   width: 70%;
@@ -273,7 +279,7 @@ h2{
   position: relative;
   background-color: white;
   margin: 10% auto;
-  /* padding: 100px; */
+
 
 }
 .customers::after{
